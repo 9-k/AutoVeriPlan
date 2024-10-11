@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoVeriPlan", "AutoVeriPlan.csproj", "{59F28E84-9C2F-4C71-B320-F3CA19CC50F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F28E84-9C2F-4C71-B320-F3CA19CC50F7}.Debug|x64.ActiveCfg = Debug|x64
+		{59F28E84-9C2F-4C71-B320-F3CA19CC50F7}.Debug|x64.Build.0 = Debug|x64
+		{59F28E84-9C2F-4C71-B320-F3CA19CC50F7}.Release|x64.ActiveCfg = Release|x64
+		{59F28E84-9C2F-4C71-B320-F3CA19CC50F7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78AF2FC4-9B29-4FFC-9635-932511AFC662}
+	EndGlobalSection
+EndGlobal
