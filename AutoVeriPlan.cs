@@ -7,8 +7,6 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using VMS.TPS.Common.Model.API;
 using VMS.TPS.Common.Model.Types;
-using Microsoft.VisualBasic;
-using System.Text.RegularExpressions;
 using ESAPIUtilities;
 
 // TODO: Replace the following version attributes by creating AssemblyInfo.cs. You can do this in the properties of the Visual Studio project.
@@ -68,10 +66,10 @@ namespace VMS.TPS
 
             p.BeginModifications();
 
-            List<ExternalPlanSetup> selectedPlans = ESAPIUtility.PlanSelector(p);
+            List<ExternalPlanSetup> selectedPlans = Utilities.PlanSelector(p);
             if (!selectedPlans.Any()) { return; } // if there are no selected plans, end.
 
-            ESAPIUtility.CreateVerificationPlans(p, selectedPlans, QAcourseId, QADetails, calcOptions);
+            Utilities.CreateVerificationPlans(p, selectedPlans, QAcourseId, QADetails, calcOptions);
         }
     }
 }
