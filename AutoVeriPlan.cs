@@ -66,10 +66,10 @@ namespace VMS.TPS
 
             p.BeginModifications();
 
-            List<ExternalPlanSetup> selectedPlans = Utilities.PlanSelector(p);
+            List<ExternalPlanSetup> selectedPlans = ESAPIUtility.PlanSelector(p);
             if (!selectedPlans.Any()) { return; } // if there are no selected plans, end.
 
-            Utilities.CreateVerificationPlans(p, selectedPlans, QAcourseId, QADetails, calcOptions);
+            ESAPIUtility.CreateVerificationPlans(p, selectedPlans, QAcourseId, QADetails, calcOptions);
         }
     }
 }
