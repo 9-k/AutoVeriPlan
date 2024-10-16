@@ -1,0 +1,3 @@
+[submodule "Libraries/ESAPIUtilities"]
+	path = Libraries/ESAPIUtilities
+	url = https://github.com/9-k/ESAPIUtilities.git
