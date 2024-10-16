@@ -58,5 +58,11 @@
   <ItemGroup>
     <Compile Include="AutoVeriPlan.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ESAPIUtilities\ESAPIUtilities\ESAPIUtilities.csproj">
+      <Project>{57016e1f-c052-4ce6-a3df-2c45fbf5508e}</Project>
+      <Name>ESAPIUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
